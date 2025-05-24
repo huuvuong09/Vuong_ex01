@@ -3,9 +3,67 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
     <title>Document</title>
   </head>
   <body>
-    <script src="./index.js"></script>
+    <h1>Giao Diện Quản Lý Danh Bạ Cá Nhân</h1>
+    <div class="header">
+      <form action="" class="form1">
+        <h2>Thêm liên hệ mới</h2>
+        <input type="text" placeholder="Họ tên" />
+        <input type="text" placeholder="Email" />
+        <input type="text" placeholder="Số điện thoại" />
+        <input type="text" placeholder="Địa chỉ" /><br />
+        <textarea
+          id="w3review"
+          name="w3review"
+          rows="3"
+          cols="38"
+          placeholder="Ghi chú"
+        ></textarea>
+        <button>Thêm liên hệ</button>
+      </form>
+      <form action="" class="form2">
+        <input type="text" placeholder="Tìm kiếm liên hệ..." />
+       <select name="" id="">
+          <option value="">Tìm kiếm theo tên(A-Z)</option>
+       </select>
+        </option>
+        <div class="scroll-container">
+          <table>
+            <thead>
+              <tr>
+                <th></th>
+                <th>Họ và tên</th>
+                <th>Email</th>
+                <th>Số điện thoại</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><input type="checkbox" /></td>
+                <td>NGUYỄN THANH BÌNH PHƯỚC</td>
+                <td>phuocntb@mieuxsoft.com</td>
+                <td>0329577177</td>
+              </tr>
+              <tr>
+                <td><input type="checkbox" /></td>
+                <td>tieucamieu</td>
+                <td>phuocntb@mieuxsoft.com</td>
+                <td>0329577177</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </form>
+    </div>
   </body>
 </html>
